@@ -1,0 +1,7 @@
+<p>FuRung.net</p>
+<br/>
+<% @images.each_with_index do |image| %>
+        <p>
+          <%= image_tag image.image.url %>
+        </p>
+<% end %>
